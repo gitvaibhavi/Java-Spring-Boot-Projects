@@ -17,7 +17,6 @@ This application demonstrates how to develop a Spring Boot web application that 
 
 ## Application Flow
 
-```text
 User
   ↓
 Thymeleaf Web Page
