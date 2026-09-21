@@ -57,11 +57,14 @@ Spring-CRUD-Application
         │
         └── resources
             └── application.properties
+```
 
 ## Database
 
-Database used: springcrud
-
+Database used: 
+```text
+springcrud
+```
 The employee table is created automatically by Hibernate/JPA when the application runs.
 
 ## Running the Application
@@ -69,8 +72,12 @@ The employee table is created automatically by Hibernate/JPA when the applicatio
 1. Configure MySQL credentials in application.properties.
 2. Create the springcrud database.
 3. Run SpringCrudApplication.java.
-4. The application runs on: http://localhost:8082
-5. Use Postman to test the REST APIs.
+4. The application runs on:
+   
+   ```text
+   http://localhost:8082
+   ```
+6. Use Postman to test the REST APIs.
 
 ## Author
 
