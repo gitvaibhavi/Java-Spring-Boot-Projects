@@ -17,6 +17,7 @@ This application demonstrates how to develop a Spring Boot web application that 
 
 ## Application Flow
 
+```text
 User
   ↓
 Thymeleaf Web Page
@@ -28,20 +29,22 @@ Spring Data JPA Repository
 Hibernate
   ↓
 MySQL Database
+```
 
 ## Technologies Used
 
-Java 17
-Spring Boot 3.2.5
-Spring Web
-Spring Data JPA
-Hibernate
-MySQL
-Thymeleaf
-Maven
+- Java 17
+- Spring Boot 3.2.5
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Thymeleaf
+- Maven
 
 ## Project Structure
 
+```text
 Spring-Boot-Web-Application
 └── src
     └── main
@@ -59,10 +62,14 @@ Spring-Boot-Web-Application
             ├── application.properties
             └── templates
                 └── employees.html
+```
 
 ## Database 
 
-Database used: springweb
+Database used: 
+```text
+springweb
+```
 The employee table is created automatically using JPA/Hibernate.
 
 ## Running the Application
@@ -70,9 +77,12 @@ The employee table is created automatically using JPA/Hibernate.
 1. Configure MySQL credentials in application.properties.
 2. Create the springweb database.
 3. Run SpringBootWebAppApplication.java.
-4. Open the application in a browser: http://localhost:8083/
-5. Enter employee details and click Save Employee.
-6. Employee records are displayed on the web page and stored in MySQL.
+4. Open the application in a browser:
+   ```text
+   http://localhost:8083/
+   ```
+6. Enter employee details and click Save Employee.
+7. Employee records are displayed on the web page and stored in MySQL.
 
 ## Author
 
